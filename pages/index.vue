@@ -2,52 +2,131 @@
   <div class="w-full">
     <!-- Hero section -->
     <section id="hero" class="w-full pb-24 relative overflow-hidden">
-        <HeroDashboard />
+      <HeroDashboard />
     </section>
 
     <!-- Crypto statistic section -->
-    <section
-      class="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
-    >
+    <section class="max-w-screen-xl mx-2 sm:mx-auto shadow-lg sm:shadow-md transform lg:-translate-y-12">
       <div class="w-full flex flex-col lg:flex-row items-center justify-center">
         <list-about-bimba v-for="(item, i) in abouts" :key="i" :item="item" data-aos="fade-up" />
       </div>
     </section>
 
     <!-- Buy and trade section -->
-    <section class="w-full my-24">
-      <BaseSection>
-        <LandingBuyTradeImage class="sm:hidden mb-8" />
-        <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
-          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">
-            Buy & trade on the <br class="hidden sm:block" />
-            original crypto exchange.
-          </h2>
-          <p class="paragraph">
-            Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto Coin. We accept BTC crypto-currency
-          </p>
-          <div class="space-y-6 lg:pr-12">
-            <LandingExchange
-              title="Amount"
-              name="amount"
-              type="number"
-              default-value="5.000"
-              :exchange-selected="currencySelected"
-              :exchanges="currencies"
-            />
-            <LandingExchange
-              title="Get"
-              name="get"
-              type="number"
-              default-value="0.10901"
-              :exchange-selected="cryptoSelected"
-              :exchanges="cryptocurrencies"
-            />
-            <BaseButton class="w-full px-5 py-4 bg-blue-gradient text-white text-base font-medium">Buy Now</BaseButton>
-          </div>
+    <section class="w-full my-24 container">
+      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
+        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Testimoni Orang Tua</h3>
+        <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
+        <div data-aos="flip-down" class="grid shadow-lg mb-8 border border-gray-200 rounded-lg dark:border-gray-700 md:mb-12 md:grid-cols-2">
+          <figure
+            v-for="i in 2"
+            :key=i
+            class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
+          >
+            <figcaption class="flex items-center justify-center space-x-3">
+              <img
+                class="image-hover"
+                src="https://bimba-aiueo.com/wp-content/uploads/2020/05/testimoni-tumbnail-15.jpg"
+                alt="profile picture"
+              />
+            </figcaption>
+              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
+              <!-- <p class="my-4 font-light">If you care for your time, I hands down would go with this."</p> -->
+            </blockquote>
+          </figure>
         </div>
-        <LandingBuyTradeImage data-aos="fade-left" class="hidden sm:block" />
-      </BaseSection>
+        <div class="flex justify-center">
+          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
+        </div>
+      </div>
+    </section>
+    <!-- Buy and trade section -->
+    <section class="w-full my-24 container">
+      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
+        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Artikel Pilihan</h3>
+        <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
+        <div data-aos="flip-left" class="grid shadow-lg mb-8 border border-gray-200 rounded-lg dark:border-gray-700 md:mb-12 md:grid-cols-2">
+          <figure
+            v-for="i in 2"
+            :key=i
+            class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
+          >
+            <figcaption class="flex items-center justify-center space-x-3">
+              <img
+                class="image-hover"
+                src="https://bimba-aiueo.com/wp-content/uploads/2020/05/testimoni-tumbnail-15.jpg"
+                alt="profile picture"
+              />
+            </figcaption>
+              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
+              <!-- <p class="my-4 font-light">If you care for your time, I hands down would go with this."</p> -->
+            </blockquote>
+          </figure>
+        </div>
+        <div class="flex justify-center">
+          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
+        </div>
+      </div>
+    </section>
+    <!-- Buy and trade section -->
+    <section class="w-full my-24 container">
+      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
+        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Berita</h3>
+        <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
+        <div data-aos="flip-up" class="grid shadow-lg mb-8 border border-gray-200 rounded-lg dark:border-gray-700 md:mb-12 md:grid-cols-2">
+          <figure
+            v-for="i in 2"
+            :key=i
+            class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
+          >
+            <figcaption class="flex items-center justify-center space-x-3">
+              <img
+                class="image-hover"
+                src="https://bimba-aiueo.com/wp-content/uploads/2020/05/testimoni-tumbnail-15.jpg"
+                alt="profile picture"
+              />
+            </figcaption>
+              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
+              <!-- <p class="my-4 font-light">If you care for your time, I hands down would go with this."</p> -->
+            </blockquote>
+          </figure>
+        </div>
+        <div class="flex justify-center">
+          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
+        </div>
+      </div>
+    </section>
+    <!-- Buy and trade section -->
+    <section class="w-full my-24 container">
+      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
+        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Cerita Alumni</h3>
+        <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
+        <div data-aos="flip-down" class="grid shadow-lg mb-8 border border-gray-200 rounded-lg dark:border-gray-700 md:mb-12 md:grid-cols-2">
+          <figure
+            v-for="i in 2"
+            :key=i
+            class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
+          >
+            <figcaption class="flex items-center justify-center space-x-3">
+              <img
+                class="image-hover"
+                src="https://bimba-aiueo.com/wp-content/uploads/2020/05/testimoni-tumbnail-15.jpg"
+                alt="profile picture"
+              />
+            </figcaption>
+              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
+              <!-- <p class="my-4 font-light">If you care for your time, I hands down would go with this."</p> -->
+            </blockquote>
+          </figure>
+        </div>
+        <div class="flex justify-center">
+          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
+        </div>
+      </div>
     </section>
 
     <!-- Partners section -->
@@ -230,7 +309,7 @@ import ListAboutBimba from '../components/ListAboutBimba.vue'
 import aosMixin from '@/mixins/aos'
 export default {
   name: 'IndexPage',
-    components: { ListAboutBimba },
+  components: { ListAboutBimba },
   mixins: [aosMixin],
   data() {
     return {
@@ -257,21 +336,30 @@ export default {
           name: 'BTC',
         },
       ],
+      testimonials: [
+        {
+          // 
+        },
+      ],
       abouts: [
         {
           image: 'https://bimba-aiueo.com/wp-content/uploads/2016/12/slide-bimba3.jpg',
           title: 'Tentang Bimba AIUEO',
-          description: 'biMBA adalah proses bimbingan Minat Belajar Anak yang bertujuan agar anak minat, senang, suka dan gemar belajar sehingga terbangun pondasi karakter pembelajar yang kuat'
+          description:
+            'biMBA adalah proses bimbingan Minat Belajar Anak yang bertujuan agar anak minat, senang, suka dan gemar belajar sehingga terbangun pondasi karakter pembelajar yang kuat',
         },
         {
-          image: 'https://bimba-aiueo.com/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-02-at-11.01.29-270x250.jpeg',
+          image:
+            'https://bimba-aiueo.com/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-02-at-11.01.29-270x250.jpeg',
           title: 'Tentang Bimba InterViO',
-          description: 'biMBA AIUEO InterViO adalah program biMBA AIUEO pusat untuk membimbing Minat baca dan Minat belajar anak usia dini, yang dilakukan secara interaktif berbasis online menggunakan media video call'
+          description:
+            'biMBA AIUEO InterViO adalah program biMBA AIUEO pusat untuk membimbing Minat baca dan Minat belajar anak usia dini, yang dilakukan secara interaktif berbasis online menggunakan media video call',
         },
         {
           image: 'https://bimba-aiueo.com/wp-content/uploads/2011/12/Cabang-biMBA-di-seluruh-Indonesia.png',
           title: 'Cabang Bimba AIUEO',
-          description: 'Untuk mendapatkan kelas terdekat, pilihlah map berikut: Seluruh Indonesia, DKI Jakarta, Aceh, Bali, Banten, Bengkulu, D.I Yogyakarta, Jawa Barat, Jawa Tengah, Jawa Timur'
+          description:
+            'Untuk mendapatkan kelas terdekat, pilihlah map berikut: Seluruh Indonesia, DKI Jakarta, Aceh, Bali, Banten, Bengkulu, D.I Yogyakarta, Jawa Barat, Jawa Tengah, Jawa Timur',
         },
       ],
       trendings: [
@@ -441,5 +529,11 @@ export default {
 }
 .max-h-0 {
   max-height: 0;
+}
+.image-hover:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 5px #000000;
+    -moz-box-shadow: 0px 10px 5px #000000;
+  -webkit-box-shadow: 0px 10px 5px #000000;  
 }
 </style>
