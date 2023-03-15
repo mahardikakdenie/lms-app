@@ -3,10 +3,10 @@
         <div class="flex flex-col max-w-screen-xl px-8 mx-auto lg:items-center lg:justify-between lg:flex-row py-4">
             <div class="flex flex-col lg:flex-row items-center space-x-4 xl:space-x-8">
                 <div class="w-full flex flex-row items-center justify-between py-6">
-                    <div>
+                    <div class="cursor-pointer" @click="$router.push('/')">
                         <img
                             src="https://bimba-aiueo.com/wp-content/uploads/2015/08/logobimbaaiueo-small.jpg"
-                            class="w-24 xl:w-56"
+                            class="w-24 xl:w-56 cursor-pointer"
                             alt="Nefa Logo"
                         />
                     </div>
@@ -27,7 +27,7 @@
                     :class="[open ? 'flex' : 'hidden lg:flex']"
                     class="w-full h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-end lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0"
                 >
-                    <NavLink name="Tentang" url="#" />
+                    <NavLink name="Tentang" url="/about-bimba" />
                     <NavLink name="Bimba Online" url="#" />
                     <NavLink name="Cari Kelas" url="#" />
                     <NavLink name="Kemitraan" url="#" />
