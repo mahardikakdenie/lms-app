@@ -19,7 +19,7 @@ export default {
     ],
   },
   css: ['@/assets/css/main.css', 'aos/dist/aos.css'],
-  plugins: ['~/plugins/smooth-scroll.js', '~/plugins/mdi.js'],
+  plugins: ['~/plugins/smooth-scroll.js', '~/plugins/mdi.js', '~/plugins/v-tooltip.js'],
   components: true,
   buildModules: ['@nuxtjs/eslint-module', '@nuxt/postcss8'],
   modules: [],
