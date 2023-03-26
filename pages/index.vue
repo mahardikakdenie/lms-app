@@ -4,48 +4,11 @@
     <section id="hero" class="w-full pb-24 relative overflow-hidden">
       <HeroDashboard />
     </section>
-
-    <!-- About -->
-    <!-- <section class="max-w-screen-xl mx-2 sm:mx-auto shadow-lg sm:shadow-md transform lg:-translate-y-12">
-      <div class="w-full flex flex-col lg:flex-row items-center justify-center">
-        <list-about-bimba v-for="(item, i) in abouts" :key="i" :item="item" data-aos="fade-up" />
-      </div>
-    </section> -->
-
     <about-section />
     <smile-learning-banner />
    <testimonial-section />
    <education-institutions />
-    <!-- Buy and trade section -->
-    <!-- <section class="w-full my-24 container">
-      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
-        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Artikel Pilihan</h3>
-        <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
-        <div data-aos="flip-left" class="grid shadow-lg mb-8 border border-gray-200 rounded-lg dark:border-gray-700 md:mb-12 md:grid-cols-2">
-          <figure
-            v-for="i in 2"
-            :key=i
-            class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
-          >
-            <figcaption class="flex items-center justify-center space-x-3">
-              <img
-                class="image-hover"
-                src="https://bimba-aiueo.com/wp-content/uploads/2020/05/testimoni-tumbnail-15.jpg"
-                alt="profile picture"
-              />
-            </figcaption>
-              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
-            </blockquote>
-          </figure>
-        </div>
-        <div class="flex justify-center">
-          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Partners section -->
+    <!-- Mitra -->
     <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Trusted Partners Worldwide</h3>
@@ -59,7 +22,6 @@
         </div>
       </div>
     </section>
-
     <!-- BIMBA -->
     <section class="w-full my-36">
       <BaseSection data-aos="fade-down">
@@ -86,7 +48,7 @@
       </BaseSection>
     </section>
 
-    <!-- Advanced trading tools section -->
+    <!-- Bimba English -->
     <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <!-- <LandingTradingToolImage class="sm:hidden" /> -->
@@ -135,7 +97,7 @@
           </div>
         </div>
         <div data-aos="fade-left" class="col-span-12 lg:col-span-5 space-y-8 sm:space-y-6 mt-8 xl:px-8">
-          <h2 class="text-4xl font-semibold">Industry-leading security from day one</h2>
+          <h2 class="text-4xl font-semibold">Sampoa <span class="text-header-gradient">SIP</span></h2>
           <ul class="space-y-8 sm:space-y-4">
             <LandingListItem title="Safety, security and compliance">
               <p class="text-sm text-gray-700 leading-relaxed">
