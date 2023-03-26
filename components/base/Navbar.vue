@@ -7,7 +7,7 @@
                         <img src="slc-dark.png" alt="" class="w-[233px]">
                     
                     </div>
-                    <button class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+                    <button class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline" @click.prevent="openBurgerMenu">
                         <SegmentIcon v-if="!open" :size="24" />
                         <CloseIcon v-else :size="24" />
                     </button>
@@ -91,6 +91,9 @@ export default {
         }
     },
     methods: {
+        openBurgerMenu() {
+            this.open = !this.open
+        },
         dropdownToggler() {
             this.dropdownNavbar = !this.dropdownNavbar
         },
