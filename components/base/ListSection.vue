@@ -1,17 +1,19 @@
 <template>
     <div data-aos="fade-right" class="group rounded-3xl border-2 border-white shadow-2xl p-6">
         <a
+            v-tooltip.bottom-start="{content: title, classes: 'bg-blue-200 p-2 font-bold rounded-md text-sm'}"
             href="services-detail.html"
             class="my-8 inline-block text-[22px] text-blue-700 font-bold dark:text-white dark:group-hover:text-black whitespace-nowrap font-cuss w-3/4 text-ellipsis overflow-hidden"
-            >{{title}}</a
+            >{{ title }}</a
         >
-        <img
-            :src="images"
-            class=""
-            alt=""
+        <img 
+          :src="images" 
         />
-        <p class="mb-10 mt-[20px] h-[40px] text-ellipsis line-clamp-2 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black font-cuss">
-            {{description}}
+        <p
+            v-tooltip.bottom-start="{content: description, classes: 'bg-blue-200 p-2 font-bold rounded-md text-sm'}"
+            class="mb-10 mt-[20px] h-[40px] text-ellipsis line-clamp-2 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black font-cuss"
+        >
+            {{ description }}
         </p>
         <button
             type="button"
@@ -24,29 +26,32 @@
 
 <script>
 export default {
-  props: {
-    item: {
-      type: Object,
-      default: () => ({}),
+    props: {
+        item: {
+            type: Object,
+            default: () => ({}),
+        },
     },
-  },
-  data() {
-    return {
-      desc: 'We provide services with the best designs than our designer team for your business',
-      titlePage: 'Prestasi Smile Learning Center',
-    }
-  },
-  computed: {
-    images () {
-      return this.item?.img ?? 'https://images.unsplash.com/photo-1674574124792-3be232f1957f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
+    data() {
+        return {
+            desc: 'We provide services with the best designs than our designer team for your business',
+            titlePage: 'Prestasi Smile Learning Center',
+        }
     },
-    description () {
-      return this.item?.desc ?? this.desc
+    computed: {
+        images() {
+            return (
+                this.item?.img ??
+                'https://images.unsplash.com/photo-1674574124792-3be232f1957f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
+            )
+        },
+        description() {
+            return this.item?.desc ?? this.desc
+        },
+        title() {
+            return this.item?.title ?? this.titlePage
+        },
     },
-    title () {
-      return this.item?.title ?? this.titlePage
-    },
-  },
 }
 </script>
 
