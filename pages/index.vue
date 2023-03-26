@@ -5,42 +5,19 @@
       <HeroDashboard />
     </section>
 
-    <!-- Crypto statistic section -->
-    <section class="max-w-screen-xl mx-2 sm:mx-auto shadow-lg sm:shadow-md transform lg:-translate-y-12">
+    <!-- About -->
+    <!-- <section class="max-w-screen-xl mx-2 sm:mx-auto shadow-lg sm:shadow-md transform lg:-translate-y-12">
       <div class="w-full flex flex-col lg:flex-row items-center justify-center">
         <list-about-bimba v-for="(item, i) in abouts" :key="i" :item="item" data-aos="fade-up" />
       </div>
-    </section>
+    </section> -->
+
+    <about-section />
+
+    <smile-learning-banner />
 
     <!-- Buy and trade section -->
-    <section class="w-full my-24 container">
-      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
-        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Testimoni Orang Tua</h3>
-        <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
-        <div data-aos="flip-down" class="grid shadow-lg mb-8 border border-gray-200 rounded-lg dark:border-gray-700 md:mb-12 md:grid-cols-2">
-          <figure
-            v-for="i in 2"
-            :key=i
-            class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
-          >
-            <figcaption class="flex items-center justify-center space-x-3">
-              <img
-                class="image-hover"
-                src="https://bimba-aiueo.com/wp-content/uploads/2020/05/testimoni-tumbnail-15.jpg"
-                alt="profile picture"
-              />
-            </figcaption>
-              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
-              <!-- <p class="my-4 font-light">If you care for your time, I hands down would go with this."</p> -->
-            </blockquote>
-          </figure>
-        </div>
-        <div class="flex justify-center">
-          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
-        </div>
-      </div>
-    </section>
+   <testimonial-section />
     <!-- Buy and trade section -->
     <section class="w-full my-24 container">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
@@ -130,7 +107,7 @@
     </section>
 
     <!-- Partners section -->
-    <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
+    <!-- <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Trusted Partners Worldwide</h3>
         <p data-aos="flip-down" class="paragraph">We're partners with countless major organisations around the globe</p>
@@ -142,10 +119,10 @@
           />
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Credit card section -->
-    <section class="w-full my-36">
+    <!-- <section class="w-full my-36">
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
           <div class="w-full">
@@ -168,10 +145,10 @@
           >
         </div>
       </BaseSection>
-    </section>
+    </section> -->
 
     <!-- Advanced trading tools section -->
-    <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
+    <!-- <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <LandingTradingToolImage class="sm:hidden" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
@@ -208,10 +185,10 @@
         </div>
         <LandingTradingToolImage data-aos="fade-left" class="hidden sm:block" />
       </div>
-    </section>
+    </section> -->
 
     <!-- Industry-leading security section -->
-    <section class="w-full my-24">
+    <!-- <section class="w-full my-24">
       <div class="relative max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-x-6">
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6">
           <div class="w-full">
@@ -243,10 +220,10 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Getting started section -->
-    <section class="bg-trading-tools relative max-w-full sm:mx-4 xl:mx-10 my-24 shadow sm:rounded-2xl overflow-hidden">
+    <!-- <section class="bg-trading-tools relative max-w-full sm:mx-4 xl:mx-10 my-24 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full py-16 flex flex-col items-center">
         <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">
           Get started in just a few minutes
@@ -268,14 +245,14 @@
           />
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- FAQ section -->
     <section class="w-full my-24">
       <BaseSection>
         <div data-aos="fade-right" data-aos-delay="150" class="col-span-12 lg:col-span-6">
           <div class="w-full">
-            <img :src="require('~/assets/img/faq.webp')" class="w-full" alt="" />
+            <img src="https://img.freepik.com/free-vector/tiny-business-people-with-giant-faq-letters-gadget-users-searching-instructions-useful-information-flat-vector-illustration-customer-support-solution-concept-banner-landing-web-page_74855-23409.jpg?w=2000&t=st=1679805063~exp=1679805663~hmac=1f7ca3bce08579bc492be4fa2db73111b23dfb17c168695e6d1fd0649b388e97" class="w-full" alt="" />
           </div>
         </div>
         <div data-aos="fade-left" data-aos-delay="150" class="col-span-12 lg:col-span-6 px-4 sm:px-6 mt-8">
@@ -305,11 +282,15 @@
 </template>
 
 <script>
-import ListAboutBimba from '../components/ListAboutBimba.vue'
+// import ListAboutBimba from '../components/ListAboutBimba.vue'
+// import AboutSection from '../components/AboutSection.vue'
+// import SmileLearningBanner from '../components/SmileLearningBanner.vue'
+// import TestimonialSection from '../components/TestimonialSection.vue'
 import aosMixin from '@/mixins/aos'
 export default {
   name: 'IndexPage',
-  components: { ListAboutBimba },
+    // components: { SmileLearningBanne, TestimonialSectionr },
+  // components: { AboutSection },
   mixins: [aosMixin],
   data() {
     return {

@@ -31,9 +31,9 @@ export default {
       activeImage: 'https://bimba-aiueo.com/wp-content/uploads/2022/09/PRESTASI-biMBA-1600x666.jpg',
       transletX: 0,
       images: [
-        'https://bimba-aiueo.com/wp-content/uploads/2022/09/PRESTASI-biMBA-1600x666.jpg',
-        'https://bimba-aiueo.com/wp-content/uploads/2022/09/MURID-dan-UNIT.jpg',
-        'https://bimba-aiueo.com/wp-content/uploads/2022/09/COBA-GRATIS-1600x666.jpg',
+        'https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
+        'https://images.unsplash.com/photo-1577897113292-3b95936e5206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1690&q=80',
+        'https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
       ],
     }
   },
