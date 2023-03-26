@@ -4,13 +4,14 @@
     >
         <div class="container">
             <div class="items-end gap-4 lg:flex xl:gap-0">
-                <div class="lg:w-1/2 relative top-[-100px]">
+                <div class="lg:w-1/2 relative">
                     <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h6 class="font-bold text-blue-600 text-2xl">Smile Learning Center</h6>
                         <h4 class="leading-normallg:!leading-[50px] text-3xl">
-                            <span class="whitespace-nowrap">Lembaga pendidikan yang memberikan solusi berbagai keluhan belajar anak</span> <span class="text-blue-400">
-                                "One Stop Learning Solution"
-                            </span>
+                            <span class="lg:whitespace-nowrap"
+                                >Lembaga pendidikan yang memberikan solusi berbagai keluhan belajar anak</span
+                            >
+                            <span class="text-blue-400"> "One Stop Learning Solution" </span>
                         </h4>
                     </div>
                     <div
@@ -46,8 +47,10 @@
                                 </svg>
                             </div>
                             <div class="ltr:pl-3 rtl:pr-3">
-                                <h4 class="mb-2 text-lg font-bold text-white">Creativity</h4>
-                                <p class="font-semibold">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                                <h4 class="mb-2 text-lg font-bold text-blue-700">Creativity</h4>
+                                <p class="text-xl">
+                                    Melatih kemampuan "Otak Kanan dan Kiri" untuk mengembangkan kreatifitas berpikir
+                                </p>
                             </div>
                         </div>
                         <div class="flex transition">
@@ -125,9 +128,10 @@
                                 </svg>
                             </div>
                             <div class="ltr:pl-3 rtl:pr-3">
-                                <h4 class="mb-2 text-lg font-bold text-white">Innovative Thinking</h4>
-                                <p class="font-semibold">
-                                    There are many variations of passages of Lorem Ipsum available
+                                <h4 class="mb-2 text-lg font-bold text-blue-700">Innovative Thinking</h4>
+                                <p class="text-xl">
+                                    Melatih kemampuan untuk menerapkan kreatifitas dalam rangka pemecahan masalah dan
+                                    menemukan peluang
                                 </p>
                             </div>
                         </div>
@@ -169,9 +173,9 @@
                                 </svg>
                             </div>
                             <div class="ltr:pl-3 rtl:pr-3">
-                                <h4 class="mb-2 text-lg font-bold text-white">Rapid Solutions</h4>
-                                <p class="font-semibold">
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                <h4 class="mb-2 text-lg font-bold text-blue-700">Melatih Minat</h4>
+                                <p class="text-xl">
+                                    Melatih Kemampuan anak untuk belajar dan Minat belajar anak di usia dini
                                 </p>
                             </div>
                         </div>
@@ -203,25 +207,21 @@
                                 </svg>
                             </div>
                             <div class="ltr:pl-3 rtl:pr-3">
-                                <h4 class="mb-2 text-lg font-bold text-white">Top-Notch Support</h4>
-                                <p class="font-semibold">
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting
+                                <h4 class="mb-2 text-lg font-bold text-blue-700">Coba Gratis</h4>
+                                <p class="text-xl">
+                                    Kami Mempunyai program memcoba gratis sampai bunda yakin kepada Smile Learning
+                                    Center
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div
-                   data-aos="fade-right"
+                    data-aos="fade-right"
                     data-aos-duration="1000"
                     class="left-[14px] mx-auto mt-10 ltr:right-5 rtl:left-5 md:w-[45%] lg:mt-0 relative xl:-translate-y-1/2"
                 >
-                    <img
-                        src="/box-img.png"
-                        alt="box-img"
-                        class="w-full rtl:rotate-y-180"
-                    />
+                    <img src="https://img.freepik.com/free-vector/children-home-with-tutor-parent-getting-education-tiny-people-home-schooling-home-education-plan-homeschooling-online-tutor-concept_335657-672.jpg?w=2000&t=st=1679812227~exp=1679812827~hmac=cb00a7e44be73f641657e40007920dcd7634215ce24ec9aa3b22e12d794650ef" alt="box-img" class="w-full rtl:rotate-y-180" />
                 </div>
             </div>
         </div>

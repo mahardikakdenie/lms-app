@@ -1,17 +1,17 @@
 <template>
-    <div data-aos="fade-right" class="group rounded-3xl border-2 border-white shadow-2xl p-6">
+    <div data-aos="fade-right" class="group rounded-3xl border-2 w-full sm:w-[308px] lg:w-[411px] border-white shadow-2xl p-6">
         <a
-            v-tooltip.bottom-start="{content: title, classes: 'bg-blue-200 p-2 font-bold rounded-md text-sm'}"
+            v-tooltip.bottom-start="{ content: title, classes: 'bg-blue-200 p-2 font-bold rounded-md text-sm' }"
             href="services-detail.html"
             class="my-8 inline-block text-[22px] text-blue-700 font-bold dark:text-white dark:group-hover:text-black whitespace-nowrap font-cuss w-3/4 text-ellipsis overflow-hidden"
             >{{ title }}</a
         >
-        <img 
-          :src="images" 
-        />
+        <div class="h-[202px] flex items-center">
+          <img :src="images" class="" style=" background-size: 100% 100%;" />
+        </div>
         <p
-            v-tooltip.bottom-start="{content: description, classes: 'bg-blue-200 p-2 font-bold rounded-md text-sm'}"
-            class="mb-10 mt-[20px] h-[40px] text-ellipsis line-clamp-2 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black font-cuss"
+            v-tooltip.bottom-start="{ content: description, classes: 'bg-blue-200 p-2 font-bold rounded-md text-sm' }"
+            class="mb-10 mt-[20px] h-[60px] text-content-elipsis text-lg transition dark:group-hover:text-black"
         >
             {{ description }}
         </p>
@@ -56,4 +56,11 @@ export default {
 </script>
 
 <style>
+.text-content-elipsis {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 </style>

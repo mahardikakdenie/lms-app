@@ -6,9 +6,9 @@
           class="md:w-full lg:w-full w-full sm:w-1/2 xl:w-fit flex flex-col sm:flex-row sm:px-6 py-6 sm:py-12 sm:space-x-10 sm:border-r-0 border-[#DDDDDD]"
         >
           <div class="sm:hidden xl:block mb-6 sm:mb-0">
-            <a href="#">
-              <img :src="require('~/assets/img/logo/nefa.svg')" class="w-24 -mt-2" alt="Nefa Logo" />
-            </a>
+            <!-- <a href="#"> -->
+              <img src="slc.png" class="w-[233px] -mt-2" alt="" />
+            <!-- </a> -->
           </div>
           <ul class="space-y-4">
             <NavLink name="Cryptocurrency" url="#" />

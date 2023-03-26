@@ -13,13 +13,11 @@
     </section> -->
 
     <about-section />
-
     <smile-learning-banner />
-
-    <!-- Buy and trade section -->
    <testimonial-section />
+   <education-institutions />
     <!-- Buy and trade section -->
-    <section class="w-full my-24 container">
+    <!-- <section class="w-full my-24 container">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Artikel Pilihan</h3>
         <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
@@ -38,7 +36,6 @@
             </figcaption>
               <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
-              <!-- <p class="my-4 font-light">If you care for your time, I hands down would go with this."</p> -->
             </blockquote>
           </figure>
         </div>
@@ -46,98 +43,40 @@
           <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
         </div>
       </div>
-    </section>
-    <!-- Buy and trade section -->
-    <section class="w-full my-24 container">
-      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
-        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Berita</h3>
-        <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
-        <div data-aos="flip-up" class="grid shadow-lg mb-8 border border-gray-200 rounded-lg dark:border-gray-700 md:mb-12 md:grid-cols-2">
-          <figure
-            v-for="i in 2"
-            :key=i
-            class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
-          >
-            <figcaption class="flex items-center justify-center space-x-3">
-              <img
-                class="image-hover"
-                src="https://bimba-aiueo.com/wp-content/uploads/2020/05/testimoni-tumbnail-15.jpg"
-                alt="profile picture"
-              />
-            </figcaption>
-              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
-              <!-- <p class="my-4 font-light">If you care for your time, I hands down would go with this."</p> -->
-            </blockquote>
-          </figure>
-        </div>
-        <div class="flex justify-center">
-          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
-        </div>
-      </div>
-    </section>
-    <!-- Buy and trade section -->
-    <section class="w-full my-24 container">
-      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
-        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Cerita Alumni</h3>
-        <p data-aos="flip-down" class="paragraph">Recently updated on November 18th, 2022 at 02:47 pm</p>
-        <div data-aos="flip-down" class="grid shadow-lg mb-8 border border-gray-200 rounded-lg dark:border-gray-700 md:mb-12 md:grid-cols-2">
-          <figure
-            v-for="i in 2"
-            :key=i
-            class="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
-          >
-            <figcaption class="flex items-center justify-center space-x-3">
-              <img
-                class="image-hover"
-                src="https://bimba-aiueo.com/wp-content/uploads/2020/05/testimoni-tumbnail-15.jpg"
-                alt="profile picture"
-              />
-            </figcaption>
-              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400 mt-[20px]">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KATA BUNDA TENTANG BIMBA | BUNDA EKA BIMBA VILLA NUSA INDAH</h3>
-              <!-- <p class="my-4 font-light">If you care for your time, I hands down would go with this."</p> -->
-            </blockquote>
-          </figure>
-        </div>
-        <div class="flex justify-center">
-          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load More</button>
-        </div>
-      </div>
-    </section>
+    </section> -->
 
     <!-- Partners section -->
-    <!-- <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
+    <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Trusted Partners Worldwide</h3>
         <p data-aos="flip-down" class="paragraph">We're partners with countless major organisations around the globe</p>
         <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
           <LandingPartnerImage
-            v-for="img in ['clever.png', 'diamon-cutts.png', 'swiss-finance.png', 'gambio.png']"
+            v-for="img in ['https://bimba-aiueo.com/wp-content/uploads/2015/08/logobimbaaiueo-small.jpg', 'https://www.sempoasip.com/Guest/img/location-home.png', 'https://www.english.bimba-aiueo.com/wp-content/uploads/2022/09/Logo-EbT-Fix-2@2x.png']"
             :key="img"
             :img="img"
           />
         </div>
       </div>
-    </section> -->
+    </section>
 
-    <!-- Credit card section -->
-    <!-- <section class="w-full my-36">
+    <!-- BIMBA -->
+    <section class="w-full my-36">
       <BaseSection data-aos="fade-down">
-        <div class="col-span-12 lg:col-span-7">
+        <div class="col-span-12 lg:col-span-7 items-center flex">
           <div class="w-full">
-            <img :src="require('~/assets/img/nefa-cc.webp')" class="w-[95%]" alt="" />
+            <img src="https://bimba-aiueo.com/wp-content/uploads/2015/08/logobimbaaiueo-small.jpg" class="w-[95%]" alt="" />
           </div>
         </div>
         <div class="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20">
           <h2 class="text-4xl font-semibold">
-            Introducing the <span class="text-header-gradient">NEFA</span> Credit Card
+            Introducing the <span class="text-header-gradient">biMBA AIUEO</span>
           </h2>
-          <p class="paragraph">Subject to cardholder and rewards terms which will be available at application.</p>
+          <p class="paragraph">biMBA adalah proses bimbingan Minat Belajar Anak yang bertujuan agar anak minat, senang, suka dan gemar belajar sehingga terbangun pondasi karakter pembelajar yang kuat</p>
           <ul class="space-y-4 sm:space-y-2">
-            <LandingListItem title="Up to 3% back on purchases" />
-            <LandingListItem title="Earn rewards in bitcoin or any crypto on NEFA" />
-            <LandingListItem title="No annual fee" />
+            <LandingListItem title="Bimbingan minat baca dan belajar anak 3-6 tahun" />
+            <LandingListItem title="Menumbuhkan minat baca tulis anak " />
+            <LandingListItem title="Gratis sampe yakin" />
           </ul>
           <BaseButton
             class="w-full sm:max-w-[240px] px-10 py-4 bg-inherit text-gradient border border-[#0c66ee] text-base"
@@ -145,14 +84,14 @@
           >
         </div>
       </BaseSection>
-    </section> -->
+    </section>
 
     <!-- Advanced trading tools section -->
-    <!-- <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
+    <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
-        <LandingTradingToolImage class="sm:hidden" />
+        <!-- <LandingTradingToolImage class="sm:hidden" /> -->
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
-          <h2 class="text-4xl font-semibold">Advanced Trading <span class="text-header-gradient">Tools</span></h2>
+          <h2 class="text-4xl font-semibold">English <span class="text-header-gradient">bIMBA</span></h2>
           <div class="space-y-2">
             <h4 class="text-lg font-medium">Professional Access, Non-stop Availability</h4>
             <p class="paragraph text-sm xl:text-base">
@@ -185,14 +124,14 @@
         </div>
         <LandingTradingToolImage data-aos="fade-left" class="hidden sm:block" />
       </div>
-    </section> -->
+    </section>
 
-    <!-- Industry-leading security section -->
-    <!-- <section class="w-full my-24">
+    <!-- Sampoe -->
+    <section class="w-full my-24">
       <div class="relative max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-x-6">
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6">
           <div class="w-full">
-            <img :src="require('~/assets/img/industry-leading-security.webp')" class="w-full" alt="" />
+            <img src="https://www.sempoasip.com/Guest/img/location-home.png" class="w-[400px]" alt="" />
           </div>
         </div>
         <div data-aos="fade-left" class="col-span-12 lg:col-span-5 space-y-8 sm:space-y-6 mt-8 xl:px-8">
@@ -220,32 +159,7 @@
           </ul>
         </div>
       </div>
-    </section> -->
-
-    <!-- Getting started section -->
-    <!-- <section class="bg-trading-tools relative max-w-full sm:mx-4 xl:mx-10 my-24 shadow sm:rounded-2xl overflow-hidden">
-      <div class="w-full py-16 flex flex-col items-center">
-        <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">
-          Get started in just a few minutes
-        </h2>
-        <div
-          data-aos="fade-up"
-          class="relative w-full flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 px-4 xl:px-10 mt-16 sm:mt-8"
-        >
-          <LandingStep v-for="step in steps" :key="step.title" :step="step" />
-          <img
-            :src="require('~/assets/img/getting-started/arrow.png')"
-            class="hidden lg:inline-block absolute top-32 left-64 xl:left-[22rem] w-24 xl:w-[9.5rem]"
-            alt=""
-          />
-          <img
-            :src="require('~/assets/img/getting-started/arrow.png')"
-            class="hidden lg:inline-block absolute top-32 right-64 xl:right-[22rem] w-24 xl:w-[9.5rem]"
-            alt=""
-          />
-        </div>
-      </div>
-    </section> -->
+    </section>
 
     <!-- FAQ section -->
     <section class="w-full my-24">
@@ -286,9 +200,11 @@
 // import AboutSection from '../components/AboutSection.vue'
 // import SmileLearningBanner from '../components/SmileLearningBanner.vue'
 // import TestimonialSection from '../components/TestimonialSection.vue'
+import EducationInstitutions from '../components/EducationInstitutions.vue'
 import aosMixin from '@/mixins/aos'
 export default {
   name: 'IndexPage',
+    components: { EducationInstitutions },
     // components: { SmileLearningBanne, TestimonialSectionr },
   // components: { AboutSection },
   mixins: [aosMixin],

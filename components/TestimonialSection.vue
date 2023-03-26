@@ -5,7 +5,7 @@
                 <h4 class="text-3xl font-bold font-cuss">Testimonial Orangtua</h4>
                 <p class="text-lg font-cuss">Kami Memberikan Solusi terhadap buah hati anda</p>
             </div>
-            <div class="grid gap-6 sm-grid-cols-2 lg:grid-cols-3">
+            <div class="grid gap-6 ml-[30px] sm-grid-cols-2 lg:grid-cols-3">
                 <base-list-section v-for="(item, i) in testimonials" :key="i" :item="item" />
             </div>
         </div>
@@ -37,10 +37,3 @@ export default {
     },
 }
 </script>
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
-* {
-    font-family: 'Delicious Handrawn', cursive;
-}
-</style>
