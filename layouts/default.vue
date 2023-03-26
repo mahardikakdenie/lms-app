@@ -80,3 +80,13 @@ export default {
   max-height: 0;
 }
 </style>
+<style>
+/* @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+* {
+    /* font-family: 'Delicious Handrawn', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Kalam', cursive;
+}
+</style>
