@@ -51,7 +51,7 @@
 
         <!--  -->
         <div class="mt-[30px]">
-            <h2 class="text-2xl">Tentang Bimba AIUEO</h2>
+            <h2 class="text-2xl">Tentang Smile Learning Center</h2>
             <p class="mt-2">Recently updated on Desember 14th, 2020 at 08:37 am</p>
         </div>
         <div class="mt-6">
@@ -62,7 +62,7 @@
             />
         </div>
         <div class="mt-6 py-6">
-            <div class="mt-2 text-2xl my-2 font-bold">Apa itu Bimba AIUEO</div>
+            <div class="mt-2 text-2xl my-2 font-bold">Apa itu Smile Learning Center</div>
             <p class="text-md">
                 Sesuai dengan cara penulisan bi ditulis dengan huruf kecil dan MBA ditulis dengan huruf besar, biMBA
                 adalah proses bimbingan Minat Belajar Anak yang bertujuan agar anak minat, senang, suka, dan gemar

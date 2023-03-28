@@ -11,7 +11,7 @@
         </div>
         <p
             v-tooltip.bottom-start="{ content: description, classes: 'bg-blue-200 p-2 font-bold rounded-md text-sm' }"
-            class="mb-10 mt-[20px] h-[60px] text-content-elipsis text-lg transition dark:group-hover:text-black"
+            class="mb-10 mt-[30px] h-[60px] text-content-elipsis transition dark:group-hover:text-black text-md"
         >
             {{ description }}
         </p>

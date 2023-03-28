@@ -83,10 +83,15 @@ export default {
 <style>
 /* @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 * {
     /* font-family: 'Delicious Handrawn', cursive; */
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Kalam', cursive;
+    /* font-family: 'Kalam', cursive; */
+    /* font-family: "ZicletsW00"; src: url("//db.onlinewebfonts.com/t/2b948f6f0fb8790323463c31bfb0e87f.eot");
+     */
+     /*  */
+     font-family: 'Nunito', sans-serif;
 }
 </style>
