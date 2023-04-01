@@ -1,5 +1,5 @@
 <template>
-    <div data-aos="fade-right" class="group rounded-3xl border-2 w-[308px] lg:w-[411px] border-white shadow-2xl p-6">
+    <div class="group rounded-3xl border-2 w-[308px] lg:w-[411px] border-white shadow-md p-6">
         <a
             v-tooltip.bottom-start="{ content: title, classes: 'bg-blue-200 p-2 font-bold rounded-md text-sm' }"
             href="services-detail.html"

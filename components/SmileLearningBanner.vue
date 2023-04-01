@@ -48,7 +48,7 @@
                             </div>
                             <div class="ltr:pl-3 rtl:pr-3">
                                 <h4 class="mb-2 text-lg font-bold text-blue-700">Creativity</h4>
-                                <p class="text-xl">
+                                <p class="text-lg">
                                     Melatih kemampuan "Otak Kanan dan Kiri" untuk mengembangkan kreatifitas berpikir
                                 </p>
                             </div>
@@ -129,7 +129,7 @@
                             </div>
                             <div class="ltr:pl-3 rtl:pr-3">
                                 <h4 class="mb-2 text-lg font-bold text-blue-700">Innovative Thinking</h4>
-                                <p class="text-xl">
+                                <p class="text-lg">
                                     Melatih kemampuan untuk menerapkan kreatifitas dalam rangka pemecahan masalah dan
                                     menemukan peluang
                                 </p>
@@ -174,7 +174,7 @@
                             </div>
                             <div class="ltr:pl-3 rtl:pr-3">
                                 <h4 class="mb-2 text-lg font-bold text-blue-700">Melatih Minat</h4>
-                                <p class="text-xl">
+                                <p class="text-lg">
                                     Melatih Kemampuan anak untuk belajar dan Minat belajar anak di usia dini
                                 </p>
                             </div>
@@ -208,7 +208,7 @@
                             </div>
                             <div class="ltr:pl-3 rtl:pr-3">
                                 <h4 class="mb-2 text-lg font-bold text-blue-700">Coba Gratis</h4>
-                                <p class="text-xl">
+                                <p class="text-lg">
                                     Kami Mempunyai program memcoba gratis sampai bunda yakin kepada Smile Learning
                                     Center
                                 </p>
