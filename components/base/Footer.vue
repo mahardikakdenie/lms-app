@@ -7,7 +7,7 @@
         >
           <div class="sm:hidden xl:block mb-6 sm:mb-0">
             <!-- <a href="#"> -->
-              <img src="slc.png" class="w-[233px] -mt-2" alt="" />
+            <img src="slc-dark.png" alt="" class="w-[233px]">
             <!-- </a> -->
           </div>
           <ul class="space-y-4">

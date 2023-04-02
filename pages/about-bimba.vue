@@ -1,5 +1,5 @@
 <template>
-    <div class="container p-6">
+    <div class="container">
         <!--  -->
         <div class="">
             <nav class="flex" aria-label="Breadcrumb">
