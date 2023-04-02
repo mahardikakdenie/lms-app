@@ -16,6 +16,7 @@
         <div class="container py-[40px]">
             <div class="flex justify-end">
                 <div class="grid grid-rows-1 w-[25%]">
+                    <!-- <span class="icon material-icons">search</span>   -->
                     <input type="text" class="rounded py-1" placeholder="Cari Kelas">
                 </div>
             </div>
