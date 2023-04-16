@@ -9,7 +9,7 @@
             <div class="flex flex-col lg:flex-row lg:items-center sm:items-start space-x-4 xl:space-x-8">
                 <div class="w-full flex flex-row lg:items-center sm:items-start justify-between py-6">
                     <div class="cursor-pointer flex" @click="$router.push('/')">
-                        <img src="slc-dark.png" alt="" class="w-[233px]" />
+                        <img src="/slc-dark.png" alt="" class="w-[233px]" />
                     </div>
                     <button
                         class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline"

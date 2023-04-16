@@ -42,7 +42,7 @@
           </ul>
           <BaseButton
             class="w-full sm:max-w-[240px] px-10 py-4 bg-inherit text-gradient border border-[#0c66ee] text-base"
-            >Join the waitlist</BaseButton
+            >Daftar Bimba AIUERO</BaseButton
           >
         </div>
       </BaseSection>
@@ -117,6 +117,12 @@
                 <span class="underline">SOC 2 Type 2</span> compliant. We are the world’s first cryptocurrency exchange
                 and custodian to complete these exams.
               </p>
+            </LandingListItem>
+            <LandingListItem>
+              <BaseButton
+            class="w-full sm:max-w-[240px] px-10 py-4 bg-inherit text-gradient border border-[#0c66ee] text-base"
+            >Daftar SEMPOA SIP</BaseButton
+          >
             </LandingListItem>
           </ul>
         </div>

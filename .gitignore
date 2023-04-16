@@ -6,7 +6,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
+/layouts/_base.scss
+/layouts/discount-label.html
+/layouts/product-slider.html
 # Runtime data
 pids
 *.pid

@@ -7,7 +7,7 @@
                 <div class="lg:w-1/2 relative">
                     <div class="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h6 class="font-bold text-blue-600 text-2xl">Smile Learning Center</h6>
-                        <h4 class="leading-normallg:!leading-[50px] text-3xl">
+                        <h4 class="leading-normallg:!leading-[50px] text-xl">
                             <span class="lg:whitespace-nowrap"
                                 >Lembaga pendidikan yang memberikan solusi berbagai keluhan belajar anak</span
                             >
